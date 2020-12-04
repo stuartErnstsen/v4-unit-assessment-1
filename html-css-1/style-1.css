@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(236,131,130);
+    height: 150px;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 2rem;
+}
+
+section {
+    margin: 10px;
+    border: 5px dotted black;
+    padding: 15px;
+}
+
+img {
+    width: 150px;
+}
+
+#html {
+    float: left;
+}
+
+#css {
+    float: right;
+}
+
+p {
+    font-size: 1.2rem;
+}
